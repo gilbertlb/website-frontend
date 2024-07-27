@@ -1,0 +1,70 @@
+// Global styles for all screen sizes 
+  body {
+    max-width: 100%;
+    // overflow-x: hidden;
+  }
+
+  a.active {
+    color: red;
+  }
+
+  header {
+    height: 70px;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    
+    nav ul {
+      list-style-type: none;
+    }
+  }
+
+  main {
+    // height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: -moz-calc(100% - 140px); /* Firefox */
+    height: -webkit-calc(100% - 140px); /* Chrome, Safari */
+    height: calc(100vh - 140px); /* IE9+ and future browsers */
+  }
+  
+  footer {
+    height: 70px;
+    max-width: 100vw;
+    // margin-top: auto;
+    background-color: #c5c8cf;
+    color: white;
+
+    i {
+      font-size: 2rem;
+    }
+  }
+  
+  /* Learn CSS animation */
+  // @keyframes App-logo-spin {
+  //   from {
+  //     transform: rotate(0deg);
+  //   }
+  //   to {
+  //     transform: rotate(360deg);
+  //   }
+  // }
+  // .App-logo {
+  //   height: 40vmin;
+  //   pointer-events: none;
+  // }
+  
+  // @media (prefers-reduced-motion: no-preference) {
+  //   .App-logo {
+  //     animation: App-logo-spin infinite 20s linear;
+  //   }
+  // }
+
+
+@import 'styles-desktop.scss';
+@import 'styles-tablet.scss';
+@import 'styles-mobile.scss';
