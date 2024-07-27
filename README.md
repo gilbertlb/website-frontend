@@ -5,6 +5,8 @@
 </p>
 
 ToDo List:
-[] Get my code from GitHub actually running on the host
-[] CI/CD pipelines to streamline the deploment
-[] A lot of style improvements
+<ul>
+  <li>Get my code from GitHub actually running on the host</li>
+  <li>CI/CD pipelines to streamline the deploment</li>
+  <li>A lot of style improvements</li>
+</ul>
